@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <title>HORSE APP</title>
+  </head>
+  <body>
+    <h1>WELCOME</h1>
+    <p>
+      Welcome to the to-do app! Use this app to keep track of your daily tasks.
+    </p>
+    <!-- Formulario para crear una nueva tarea -->
+<form id="new-task-form">
+    <h2>New Task</h2>
+    <label>Title:
+      <input type="text" name="title" required>
+    </label>
+    <label>Description:
+      <input type="text" name="description">
+    </label>
+    <label>Deadline:
+      <input type="date" name="deadline">
+    </label>
+    <label>Category:
+      <input type="text" name="category">
+    </label>
+    <button type="submit">Add Task</button>
+  </form>
+  
+  <!-- Tabla para mostrar las tareas pendientes -->
+  <table id="pending-tasks-table">
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Deadline</th>
+        <th>Category</th>
+      </tr>
+    </thead>
+    <tbody id="pending-tasks-body">
+      <!-- Filas de la tabla con las tareas pendientes -->
+    </tbody>
+  </table>
+  <script src="form.js"></script>
+  </body>
+</html>

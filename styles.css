@@ -1,0 +1,70 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="text"],
+  form input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #00bcd4;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    
+    table {
+    width: 100%;
+    border-collapse: collapse;
+}
+    
+    table th,
+    table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+    
+    table th {
+    background-color: #00bcd4;
+    color: white;
+}
+    
+    table td.done {
+    text-decoration: line-through;
+}
+    
+    
+    

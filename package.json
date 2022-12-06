@@ -1,0 +1,18 @@
+{
+  "name": "horse.app",
+  "version": "1.0.0",
+  "description": "This web application is a task tracking application that allows users to manage their daily tasks. The application allows users to create and assign tasks to different categories, set reminders and deadlines, and view a list of pending tasks. The application uses Node.js as the development platform and MongoDB as the database to store and retrieve task data. The user interface of the application is built with HTML, CSS, and JavaScript to allow users to interact with the application and manage their tasks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "horse"
+  ],
+  "author": "GaloAlmi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^4.12.1"
+  }
+}
